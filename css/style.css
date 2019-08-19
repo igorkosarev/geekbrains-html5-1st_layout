@@ -387,7 +387,7 @@ body {
 }
 
 .main-buy-wrapper-list {
-    margin: 0 0 20px 40px;
+    margin: 0 0 20px 20px;
 }
 
 .main-buy-wrapper-list-items {
@@ -395,6 +395,7 @@ body {
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
+    list-style-position: inside;
 }
 
 .main-buy-wrapper-button {
@@ -455,6 +456,49 @@ body {
 }
 
 .main-contacts-container {}
+
+.main-contacts-container-form {}
+
+.main-contacts-container-wrapper {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main-contacts-wrapper-container {
+    height: 26px;
+    width: 24px;
+    line-height: 26px;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    margin: 0 0 18px 0;
+}
+
+.main-contacts-wrapper-container:last-child {
+    margin: 0;
+}
+
+.main-contacts-wrapper-link {
+    padding-left: 29px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-contacts-wrapper-skype {
+    background-image: url(../img/skype_icon.png);
+}
+
+.main-contacts-wrapper-icq {
+    background-image: url(../img/icq_icon.png);
+}
+
+.main-contacts-wrapper-email {
+    background-image: url(../img/email_icon.png);
+}
+
+.main-contacts-wrapper-phone {
+    background-image: url(../img/phone_icon.png);
+}
 
 
 /* END main-buy */
