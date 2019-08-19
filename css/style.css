@@ -349,13 +349,11 @@ body {
 
 .main-buy-container-right {
     position: relative;
-    z-index: 1;
     right: -50%;
 }
 
 .main-buy-wrapper {
     background-color: #445162;
-    border: 1px solid #445162;
     border-radius: 5px;
     width: 300px;
     margin: 0 45px 0 0;
@@ -377,12 +375,15 @@ body {
 
 .main-buy-wrapper-price {
     background-color: #ffffff;
-    line-height: 70px;
+    border: 1px solid #445162;
+    line-height: 68px;
+    vertical-align: middle;
     color: #445162;
     text-align: center;
     font-size: 40px;
-    font-weight: 400;
-    margin: 0 1px 20px 1px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    letter-spacing: -0.05em;
 }
 
 .main-buy-wrapper-list {
@@ -452,6 +453,8 @@ body {
     line-height: 36px;
     text-align: center;
 }
+
+.main-contacts-container {}
 
 
 /* END main-buy */
