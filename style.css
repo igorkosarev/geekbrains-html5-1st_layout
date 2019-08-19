@@ -34,7 +34,8 @@ float: left;
 
 .main-header-title{
     margin: 0 0 50px 0;
-    font-size: 60px;
+    font-size: 52px;
+    line-height: 44px;
     font-weight: 400;
     color: #ffffff;
 }
@@ -48,9 +49,9 @@ float: left;
 .main-header-list-item{
     position: relative;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 32px;
     padding: 0 0 0 36px;
 }
 
@@ -107,11 +108,11 @@ float: left;
 
 .main-about-product-article-text{
     margin: 0 0 20px 0;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     color: #333333;
-   text-align: justify;
+    text-align: justify;
 }
 
 .main-about-product-article-text:last-child {
@@ -149,7 +150,7 @@ float: left;
     text-align: center;
 }
 .main-dignity-wrapper{
-    width: 49%;
+    width: 50%;
     float: left;
 }
 .main-dignity-wrapper:last-child{
@@ -166,27 +167,33 @@ float: left;
 
 .main-dignity-wrapper-text{
     /*text-align: justify;*/
-    font-size: 14px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 22px;
     color: #333333;
     outline-style: none;
+    font-size: 14px;
 }
 .main-dignity-wrapper-text p{
     margin: 0 0 0 42px;
+
 }
 .main-dignity-wrapper-text::-webkit-details-marker {
     display: none
 }
 
 .main-dignity-wrapper-text::before{
-    background: url(img/plus_icon.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
+    /*background: url(img/plus_icon.png);*/
+    background-color: #445161;
+    color: #ffffff;
     float: left;
-    height: 34px;
-    width: 32px;
-    content: "";
+    height: 32px;
+    width: 31px;
+    padding: 0 0 0 1px;
+    content: "+";
+    text-align: center;
+    margin: 5px 0 0 0;
+    font-size: 36px;
+    line-height: 26px;
 }
 
 
